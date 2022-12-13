@@ -4,6 +4,7 @@
 
 
 • ***Problem description***:
+
 Therefore, it is essential to understand the interaction patterns between online companies and their
 customers is important in the face of this online market growth. To develop personalized products and
 services, it is important to differentiate between different types of customers. However, we have found
@@ -15,6 +16,7 @@ considered.
 
 
 • ***Algorithms***:
+
 As the dataset consists of 29 features, dimensionality reduction techniques such as PCA will be used to
 reduce dimensionality. Clustering algorithms such as Kmeans, Hierarchical clustering will be used to
 make segments of customers. DBSCAN will be used for detecting outliers in the data. Also, We are
@@ -25,6 +27,7 @@ feed-forward networks produce only coarse segments.
 
 
 • ***Data sets***:
+
 We will be using the company’s dataset fetched from the Kaggle website. It has 2240 rows and 29
 different features which can be generalized into four categories i.e. People, Product, Promotion, Place
 which further have different features. High dimensionality is present in the dataset thus the amount of
@@ -33,6 +36,7 @@ we will detect missing values if there are any. Categorical features will be con
 the models.
 
 • ***Libraries and tools***:
+
 The code will be executed with Jupyter notebook and Google collab(if it is needed for running algorithms
 related to neural networks). Pandas and Numpy for common mathematical and data frame operations.
 Sklearn library will be used for preprocessing of the data such as scaling and also for importing trained
@@ -41,6 +45,7 @@ Seaborn will be used. For implementing neural network models, Keras and TensorFl
 incorporated.
 
 • ***Results***:
+
 The project should yield different groups of customers who have similar interests falling into the same
 clusters. If there are outliers, then we will detect whether they are making their cluster as it can produce
 valuable insight for a company. We will also show the behavior and patterns of customers for an
@@ -51,4 +56,5 @@ complex patterns and relationships.
 
 
 • ***Dataset***:
+
 https://www.kaggle.com/code/sonalisingh1411/customer-personality-analysis-segmentation/data
